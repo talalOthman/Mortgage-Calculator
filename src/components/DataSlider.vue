@@ -1,6 +1,8 @@
 <script setup>
+import { defineProps, defineEmits } from 'vue'
 defineProps(['modelValue', 'min', 'max', 'step', 'type', 'symbol'])
 defineEmits(['update:modelValue'])
+
 </script>
 
 <template>
@@ -10,8 +12,9 @@ defineEmits(['update:modelValue'])
             <p>{{ modelValue.toLocaleString() }} {{symbol}} </p>
         </div>
         <input type="range" :name="type" :min="min" :max="max" :step="step" :value="modelValue"
-            @input="$emit('update:modelValue', $event.target.value)">
+            @input="$emit('update:modelValue', $event.target.value.toLocaleString())">
     </div>
 </template>
+
 
 
