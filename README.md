@@ -12,8 +12,8 @@ The Mortgage Calculator is a web app that helps users estimate their monthly mor
 
 ## Technologies Used
 
-. Vue.js - a JavaScript framework for building user interfaces
-. TailwindCSS - a utility-first CSS framework for quickly styling web pages
+1. Vue.js - a JavaScript framework for building user interfaces
+2. TailwindCSS - a utility-first CSS framework for quickly styling web pages
 
 
 ## Accessing the Project
