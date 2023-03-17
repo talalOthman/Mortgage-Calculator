@@ -1,14 +1,24 @@
-# mortgage-calculator
+# Mortage Calculator
 
-This template should help get you started developing with Vue 3 in Vite.
+Mortgage calculator app built with Vue.js and TailwindCSS. It allows users to input their desired purchase price, down payment, repayment time, and interest rate, and calculates their monthly payment and total loan amount.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+. Input fields for purchase price, down payment, repayment time, and interest rate
+. Slider components for easy input selection
+. Calculation of loan amount and monthly payment based on input values
+. Result display components for loan amount and monthly payment
+. Responsive design for desktop and mobile devices
 
-## Customize configuration
+## Technologies Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+. Vue.js - a JavaScript framework for building user interfaces
+. TailwindCSS - a utility-first CSS framework for quickly styling web pages
+
+
+## Accessing the Project
+
+You can access the live version of the project by visiting https://mortgage-calculator-snowy.vercel.app.
 
 ## Project Setup
 
@@ -26,10 +36,4 @@ npm run dev
 
 ```sh
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
