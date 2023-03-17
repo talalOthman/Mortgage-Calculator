@@ -1,14 +1,14 @@
 # Mortage Calculator
 
-Mortgage calculator app built with Vue.js and TailwindCSS. It allows users to input their desired purchase price, down payment, repayment time, and interest rate, and calculates their monthly payment and total loan amount.
+The Mortgage Calculator is a web app that helps users estimate their monthly mortgage payments and total loan amount. It's built with Vue.js and TailwindCSS, and features a responsive design. Users enter the purchase price, down payment, repayment time, and interest rate, and the app calculates the results.
 
 ## Features
 
-. Input fields for purchase price, down payment, repayment time, and interest rate
-. Slider components for easy input selection
-. Calculation of loan amount and monthly payment based on input values
-. Result display components for loan amount and monthly payment
-. Responsive design for desktop and mobile devices
+1. Input fields for purchase price, down payment, repayment time, and interest rate
+2. Slider components for easy input selection
+3. Calculation of loan amount and monthly payment based on input values
+4. Result display components for loan amount and monthly payment
+5. Responsive design for desktop and mobile devices
 
 ## Technologies Used
 
