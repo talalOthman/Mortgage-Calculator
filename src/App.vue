@@ -18,7 +18,7 @@ const monthlyPayment = computed(() => {
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-center h-screen text-black bg-gray-300">
+  <div class="flex flex-col items-center justify-center h-screen overflow-hidden text-black bg-gray-300">
     <div class="flex flex-col items-center md:p-20 md:shadow-2xl">
     <h1 class="text-3xl md:text-5xl pb-10 font-bold font-mono">Mortgage Calculator</h1>
     <div class="flex flex-col p-5 md:p-10 gap-y-2 md:w-3/5">
